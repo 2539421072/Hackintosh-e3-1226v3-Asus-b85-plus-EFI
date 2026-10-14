@@ -1,0 +1,4 @@
+# Keep EFI payload byte-exact when cloned on any platform.
+# OpenCore config.plist / .hex / .icns must not be line-ending converted or
+# Windows users downloading this EFI can end up with a non-booting setup.
+* -text -text=auto
